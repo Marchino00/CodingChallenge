@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-image: url(assets/background.jpg);
+    background-size: cover;
+    background-position-y: top;
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#header img{
+    width: 20%;
+}
+
+#header h1{
+    color: lime;
+}
+
+nav{
+    background-color: lime;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 8px;
+    gap: 4px;
+}
+
+.button{
+    background-color: #fff;
+    border-radius: 2px;
+    font-size: 12px;
+    padding: 2px 4px;
+    border: 1px solid #000;
+}
+
+/*
+XXXXXXXXXXXXXXXXX
+XXXXXXMAINXXXXXXX
+XXXXXXXXXXXXXXXXX
+*/
+
+main{
+    margin: auto;
+    width: 60%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border-radius: 8px;
+    padding: 60px ;
+    margin-top: 40px;
+    gap: 20px;
+}
+
+section:nth-child(2){
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start; 
+    gap: 20px;
+}
+
+section:nth-child(2) > div{
+    width: 100%;
+}
+
+section:nth-child(2) > div > *{
+    padding: 1px;
+}
+
+h2{
+    font-size: 20px;
+}
+
+.white{
+    color: white;
+}
+
+.small{
+    font-size: small;
+}
+
+
+.bold::before{
+    width: 5px;
+    height: 5px;
+    background-color: #fff;
+}
+
+li{
+    list-style-type: square;
+}
+
+#carica1{
+    width: 40%;
+    height: 20px;
+    background-color: orange;
+    border-radius: 4px;
+}
+
+#carica2{
+    width: 60%;
+    height: 20px;
+    background-color: lime;
+    border-radius: 4px;
+}
+
+#carica3{
+    width: 20%;
+    height: 20px;
+    background-color: darkred;
+    border-radius: 4px;
+}
